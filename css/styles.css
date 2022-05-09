@@ -1,0 +1,103 @@
+ /*h1{
+    color: red;
+}*/
+/*.title{
+    color: green; 
+}*/
+/* #titre{ color: blue;} */
+body {
+    margin: 30px;
+}
+header {
+border: 1px solid black;
+height: 50px;
+width: 50%;
+margin:auto;
+}
+nav {
+    padding: 11px;
+    text-align: center;
+    background-color: gray;
+}
+nav a {
+    margin-right: 12px;
+    text-decoration: none;
+    color: aquamarine;
+}
+nav a:hover {
+    color: black;
+}
+/* home */
+#home {
+    text-align: center;
+}
+h2{
+    text-align: left;
+}
+#home img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+/*aboutme*/
+.pa {
+    width: 35%;
+    display: inline-block;
+   
+    line-height: 40px;
+    text-align: justify;
+    margin-left: 49px;
+}
+/*experiences*/
+#experiences{
+    text-align: center; }
+    tr,td,th,table {
+        border: 1px green dashed;
+        text-align: center;
+        
+    }
+    table{
+        width: 80%;
+        text-align: center;
+        margin:auto;
+    }
+    video, iframe{
+        display: inline-block;
+        margin-top: 20px;
+        margin-right: 10px;
+        width:560px;
+          height:315px
+    }
+    /*contact me*/
+    #contactme{
+        text-align: center;
+    }
+    form input{
+        margin-left: 25px;
+        margin-bottom: 12px;
+    }
+    .in {
+        margin-left: 50px;
+    }
+    
+    form button
+    {
+        height: 39px;
+        font-size: 19px;
+        border-radius: 8px;
+        border: none;
+        background-color: green;
+        color: white;
+    }
+    footer {
+        border:  1px solid black;
+        text-align: center;
+        margin-top: 30px;
+
+    }
+    footer a {
+        font-size: 41px;
+        text-decoration: none;
+    }
+
+
